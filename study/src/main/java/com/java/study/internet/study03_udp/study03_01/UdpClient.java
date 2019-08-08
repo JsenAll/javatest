@@ -1,4 +1,4 @@
-package com.java.study.internet.study03_udp;
+package com.java.study.internet.study03_udp.study03_01;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

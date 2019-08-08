@@ -1,8 +1,7 @@
-package com.java.study.internet.study03_udp;
+package com.java.study.internet.study03_udp.study03_02;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.net.SocketException;
 
 /**
  * UDP 编程  接收端
@@ -12,7 +11,7 @@ import java.net.SocketException;
  * 4:分析数据
  * 5:释放资源
  */
-public class UdpServer {
+public class UdpTalkServer {
     public static void main(String[] args) throws Exception {
         System.out.println("接受方启动中....");
 //         * 1:使用DatagramSocket 指定端口 创建接收端
